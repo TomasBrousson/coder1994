@@ -1,7 +1,7 @@
 .menu__listasecciones li{
     
     padding: 0px;
-    font-size: 35px;
+    font-size: 20px;
     display: inline;
     margin-left: 100px;
     padding: 20px;
@@ -130,6 +130,7 @@
 
 #fondoescribinos{
     background-color: black;
+    background-image: linear-gradient(to bottom, black, red, grey);
 }
 
 #menuescri li{
@@ -182,3 +183,24 @@
 #piecuentos{
     color: white;
 }
+
+@media  screen and (max-width:500px) {
+    .menu__listasecciones{
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            "header"
+            "main"
+            "footer"
+            ;
+        }
+    .enlacesnosotros{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "main"
+            "footer"
+            ;
+        
+    }
+    
+    }
