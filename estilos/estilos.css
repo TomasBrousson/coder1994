@@ -33,6 +33,12 @@
     animation-duration: 5s;
 }
 
+.logonosotros{
+    width: 150px;
+    flex: 100px;
+    animation-name: animacionlogo;
+    animation-duration: 5s;
+}
 
 
 
