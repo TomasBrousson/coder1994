@@ -8,6 +8,56 @@
        
 }
 
+@keyframes animacionlogo{
+    0% {
+        opacity: 0%;
+    }
+    25% {
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75% {
+        opacity: 75%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.logo{
+    width: 150px;
+    flex: 100px;
+    animation-name: animacionlogo;
+    animation-duration: 5s;
+}
+
+
+
+
+#line {
+    float: left;
+    width: 1000px;
+    height: 100px;   
+    border-left: 6px solid red;
+    height: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 300px;             
+}
+
+.losmasvistos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 1000px;
+    margin-top: -1000px;
+    color: red;
+
+}
+
 
 .enlaces{
     text-decoration: none;  
@@ -20,7 +70,7 @@
     margin-left: 270px;
     font-family: Arial, Helvetica, sans-serif;
     border: solid 2px;
-    width: 105px;
+    width: 130px;
     background-color: green;
 }
 
@@ -36,9 +86,7 @@
     color: red;
 }
 
-#separacionDevideo{
-    border-color: red;
-}
+
 .pie__piedepagina{
     list-style-type: none;
     text-align: center;
@@ -62,6 +110,16 @@
 #pentagonoDescripcion{
     color: red
 
+}
+
+#Lachicadelacarretera{
+    color: red;
+    margin-left: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#descripcionlachica{
+    color: red;
 }
 
 .nosotrostitulo__texto{
@@ -210,3 +268,12 @@
     }
     
     }
+
+    .pagination{
+        display: flex;
+        align-items: flex-end;
+        padding-top: 100px;
+
+    }
+
+    
