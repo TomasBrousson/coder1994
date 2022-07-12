@@ -1,0 +1,86 @@
+@keyframes animacionlogo {
+  0% {
+    opacity: 0%; }
+  25% {
+    opacity: 25%; }
+  50% {
+    opacity: 50%; }
+  75% {
+    opacity: 75%; }
+  100% {
+    opacity: 100%; } }
+
+.logo {
+  width: 150px;
+  flex: 100px;
+  animation-name: animacionlogo;
+  animation-duration: 5s; }
+
+.fondo {
+  background-color: black;
+  background-image: url(../multimedia/fondo.webp);
+  background-size: cover; }
+  .fondo .menu .menu__listasecciones {
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer"; }
+    .fondo .menu .menu__listasecciones li {
+      padding: 0px;
+      font-size: 20px;
+      display: inline;
+      margin-left: 100px;
+      padding: 20px; }
+  .fondo #line {
+    float: left;
+    width: 1000px;
+    height: 100px;
+    border-left: 6px solid;
+    height: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 300px; }
+  .fondo .logo {
+    width: 150px;
+    flex: 100px;
+    animation-name: animacionlogo;
+    animation-duration: 5s; }
+  .fondo .titulo {
+    color: red;
+    margin-left: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px;
+    width: 130px;
+    background-color: green; }
+    .fondo .titulo .titulo__nombrevideo {
+      color: 255, 0, 0;
+      margin-left: 250px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      .fondo .titulo .titulo__nombrevideo #descripcionDelvideo {
+        color: red; }
+  .fondo #videoDelpentagono {
+    color: red;
+    margin-left: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .fondo #videoDelpentagono #pentagonoDescripcion {
+      color: red; }
+  .fondo #Lachicadelacarretera {
+    color: red;
+    margin-left: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .fondo #Lachicadelacarretera #descripcionlachica {
+      color: red; }
+  .fondo .losmasvistos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 1000px;
+    margin-top: -1000px;
+    color: red; }
+  .fondo .pagination {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 100px; }
+  .fondo .pie .pie__piedepagina {
+    list-style-type: none;
+    text-align: center;
+    color: white; }

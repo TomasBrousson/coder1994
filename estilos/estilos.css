@@ -1,4 +1,4 @@
-.menu__listasecciones li{
+/*.menu__listasecciones li{
     
     padding: 0px;
     font-size: 20px;
@@ -6,7 +6,7 @@
     margin-left: 100px;
     padding: 20px;
        
-}
+}*/
 
 @keyframes animacionlogo{
     0% {
@@ -42,7 +42,7 @@
 
 
 
-#line {
+/*#line {
     float: left;
     width: 1000px;
     height: 100px;   
@@ -52,9 +52,9 @@
     left: 50%;
     margin-left: -3px;
     top: 300px;             
-}
+}*/
 
-.losmasvistos{
+/*.losmasvistos{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -62,7 +62,7 @@
     margin-top: -1000px;
     color: red;
 
-}
+}*/
 
 
 .enlaces{
@@ -71,62 +71,63 @@
     
 }
 
-.titulo{
+/*.titulo{
     color:red;
     margin-left: 270px;
     font-family: Arial, Helvetica, sans-serif;
     border: solid 2px;
     width: 130px;
     background-color: green;
-}
+}*/
 
-.titulo__nombrevideo{
+/*.titulo__nombrevideo{
     color: red;
     margin-left: 250px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
-}
+}*/
 
 
-#descripcionDelvideo{
+/*#descripcionDelvideo{
     color: red;
-}
+}*/
 
 
-.pie__piedepagina{
+/*.pie__piedepagina{
     list-style-type: none;
     text-align: center;
     color: white;
-}
+}*/
 
-.fondo{
+/*.fondo{
+ 
     background-color: black;
     background-image:url(../multimedia/fondo.webp);
     background-size: cover;
-}
+}*/
 
-#videoDelpentagono{
+/*#videoDelpentagono{
     
     color: red;
     margin-left: 250px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
-}
+}*/
 
-#pentagonoDescripcion{
+/*#pentagonoDescripcion{
     color: red
 
-}
+}*/
 
-#Lachicadelacarretera{
+/*#Lachicadelacarretera{
     color: red;
     margin-left: 250px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+}*/
 
-#descripcionlachica{
+/*#descripcionlachica{
     color: red;
-}
+}*/
 
 .nosotrostitulo__texto{
     color: red;
@@ -143,7 +144,9 @@
 }
 
 #nosotrosback{
+    display: grid;
     background-image:url(../multimedia/Fog-Nature-HD-Desktop-Wallpaper-113878.jpg)
+    
 }
 
 .nosotrostitulo__texto{
@@ -255,15 +258,15 @@
     color: white;
 }
 
-@media  screen and (max-width:500px) {
-    .menu__listasecciones{
+@media  screen and (max-width:768px) {
+    /*.menu__listasecciones{
             grid-template-columns: 1fr;
             grid-template-areas: 
             "header"
             "main"
             "footer"
             ;
-        }
+        }*/
     .enlacesnosotros{
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -271,16 +274,26 @@
             "main"
             "footer"
             ;
-        
+        }
+    
+    .fondo{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 0.5fr;
+        grid-template-areas: 
+                "header"
+                "main"
+                "footer";
     }
+
     
     }
 
-    .pagination{
+    /*.pagination{
         display: flex;
         align-items: flex-end;
         padding-top: 100px;
 
-    }
+    }*/
 
     
