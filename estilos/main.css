@@ -1,3 +1,9 @@
+.twitter {
+  color: #55acee; }
+
+.facebook {
+  color: #3a5795; }
+
 @keyframes animacionlogo {
   0% {
     opacity: 0%; }
@@ -10,7 +16,7 @@
   100% {
     opacity: 100%; } }
 
-.logo {
+.logo, .fondo .logo {
   width: 150px;
   flex: 100px;
   animation-name: animacionlogo;
@@ -39,11 +45,6 @@
     left: 50%;
     margin-left: -3px;
     top: 300px; }
-  .fondo .logo {
-    width: 150px;
-    flex: 100px;
-    animation-name: animacionlogo;
-    animation-duration: 5s; }
   .fondo .titulo {
     color: red;
     margin-left: 270px;
@@ -70,6 +71,8 @@
     .fondo #Lachicadelacarretera #descripcionlachica {
       color: red; }
   .fondo .losmasvistos {
+    height: 200px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -81,6 +84,7 @@
     align-items: flex-end;
     padding-top: 100px; }
   .fondo .pie .pie__piedepagina {
+    background-color: #55acee;
     list-style-type: none;
     text-align: center;
     color: white; }

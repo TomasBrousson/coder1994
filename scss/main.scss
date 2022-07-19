@@ -1,5 +1,10 @@
-$letras_color : rgb(255, 0, 0);
-
+@import "variables";
+@mixin tamano ($width, $height) {
+    height: $height;
+    width: $width;
+    
+}
+$letras_color: rgb(255, 0, 0);
 
 @keyframes animacionlogo{
     0% {
@@ -19,6 +24,7 @@ $letras_color : rgb(255, 0, 0);
     }
 }
 .logo{
+    
     width: 150px;
     flex: 100px;
     animation-name: animacionlogo;
@@ -53,8 +59,9 @@ $letras_color : rgb(255, 0, 0);
         
 
 
-
 #line {
+    
+
     float: left;
     width: 1000px;
     height: 100px;   
@@ -67,10 +74,7 @@ $letras_color : rgb(255, 0, 0);
 }
 
 .logo{
-    width: 150px;
-    flex: 100px;
-    animation-name: animacionlogo;
-    animation-duration: 5s;
+    @extend .logo
 }
 
 
@@ -97,10 +101,11 @@ $letras_color : rgb(255, 0, 0);
     }
 
     #videoDelpentagono{
-    
+        
         color:$letras_color ;
         margin-left: 250px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
         #pentagonoDescripcion{
             color: $letras_color;
         
@@ -116,6 +121,7 @@ $letras_color : rgb(255, 0, 0);
     }
 
     .losmasvistos{
+        @include tamano(200px,200px)
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -125,16 +131,21 @@ $letras_color : rgb(255, 0, 0);
     
     }
     .pagination{
+        
         display: flex;
         align-items: flex-end;
         padding-top: 100px;
 
     }
     .pie{
+        
         .pie__piedepagina{
+            
+            background-color: map-get( $redes, twitter);
             list-style-type: none;
             text-align: center;
             color: white;
         }
     }
 }
+
