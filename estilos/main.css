@@ -35,16 +35,6 @@
       display: inline;
       margin-left: 100px;
       padding: 20px; }
-  .fondo #line {
-    float: left;
-    width: 1000px;
-    height: 100px;
-    border-left: 6px solid;
-    height: 1000px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 300px; }
   .fondo .titulo {
     color: red;
     margin-left: 270px;
