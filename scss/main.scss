@@ -1,139 +1,333 @@
 @import "variables";
-@mixin tamano ($width, $height) {
-    height: $height;
-    width: $width;
-    
-}
-$letras_color: rgb(255, 0, 0);
 
-@keyframes animacionlogo{
-    0% {
-        opacity: 0%;
-    }
-    25% {
-        opacity: 25%;
-    }
-    50%{
-        opacity: 50%;
-    }
-    75% {
-        opacity: 75%;
-    }
-    100% {
-        opacity: 100%;
-    }
-}
-.logo{
+
+
+/*Index(Videos)*/
+
+html,body {
+    margin: 0;
+    padding:0;
+    overflow-x:hidden;
+    position: relative;
     
-    width: 150px;
-    flex: 100px;
-    animation-name: animacionlogo;
-    animation-duration: 5s;
-        
 }
 
 .fondo{
- 
+    background: no-repeat center fixed;
     background-color: black;
-    background-image:url(../multimedia/fondo.webp);
     background-size: cover;
-       .menu{ 
-            .menu__listasecciones{
-                    grid-template-columns: 1fr;
-                    grid-template-areas: 
-                    "header"
-                    "main"
-                    "footer"
-                    ;
-                
-                        li{
-                        padding: 0px;
-                        font-size: 20px;
-                        display: inline;
-                        margin-left: 100px;
-                        padding: 20px;
-           
-                        }
-                    }
-            }
+    overflow-x: hidden ;
+    max-width: 5000px;
+    height: 2700px;
+    overflow-y: hidden;
+    
+    .titulopagina{
+        position: relative;
+        top: 159px;
+        left: 30px;
+        color: $letras_color;
+
+    }
+    
+    
+   
+    .menu{
         
+        border-right: transparent;
+        border-left: transparent;
+        border-top: transparent;
+        border-bottom: 1px solid green;
+        border-style: double;
+        border-width: 15px;
+        position: relative;
+        bottom: 40px;
+        }
+        .menu__listasecciones{
+            
+            list-style: none;
+            display: flex;
+            background-image: url(../multimedia/fondoestrellas.jpg);
+            background-size: cover;
+        
+            }
+            .logo{
+                width: 150px;
+                height: 150px;
+                margin-right: auto;
+                clip-path: circle();
+                animation-name: animacionlogo;
+                animation-duration: 1s;
+                 }
+            .enlaces{
+                font-size: 25px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: $letras_color;
+                text-decoration: none;
+                padding: 100px; 
+                top: 50px;
+                position: relative;
+               
+                }
+            
+            }
+         .enlaces:hover {
+            color: yellow;
+            }
 
-
-
-
-.logo{
-    @extend .logo
+    
+.secciondevideos{
+    .secciondevideos__titulo {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        padding-left: 500px;    
+        
+        
+    }   
+    .titulo__nombrevideo{
+        position: relative;
+        right: 70px;
+        bottom: 270px;
+        margin-top: 300px;
+        padding-left: 250px;
+        color: $letras_color;
+    } 
+    #descripcionDelvideo{
+        position: relative;
+        right: 100px;
+        bottom: 400px;
+        margin-top: 50px;
+        padding: 100px;
+        color:crimson;
+    }
+    .iframevideo{
+        position: relative;
+        bottom: 450px;
+        padding-left: 25px;
+        margin-top: 0px;
+    }
 }
 
-
-
-
-
-
-    .titulo{
-        color:$letras_color;
-        margin-left: 270px;
-        font-family: Arial, Helvetica, sans-serif;
-        border: solid 2px;
-        width: 130px;
-        background-color: green;
-        .titulo__nombrevideo{
-            color:(255, 0, 0);
-            margin-left: 250px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            #descripcionDelvideo{
-                color:$letras_color;
-            }     
+    .segundovideo{
+        #segundovideo__videoDelpentagono{
+            position: relative;
+            bottom: 430px;
+            left: 170px;
+            color: $letras_color;
         }
-        
-    }
-
-    #videoDelpentagono{
-        
-        color:$letras_color ;
-        margin-left: 250px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        
         #pentagonoDescripcion{
-            color: $letras_color;
-        
+            position: relative;
+            right: 1px;
+            bottom: 415px;
+            
+            color: crimson;
         }
-    } 
-    #Lachicadelacarretera{
-        color: $letras_color;
-        margin-left: 250px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        #descripcionlachica{
+        .videopenta{
+            position: relative;
+            bottom: 350px;
+            padding-left: 25px;
+            margin-top: 0px;
+        }
+    }
+    .ultimovideo{
+        #Lachicadelacarretera{
+            position: relative;
+            bottom: 320px;
+            left: 190px;
             color: $letras_color;
+        }
+        #descripcionlachica{
+            position: relative;
+            position: relative;
+            bottom: 300px;
+            left: 1px;
+            color: crimson;
+        }
+        .videochica{
+            position: relative;
+            bottom: 300px;
+            padding-left: 25px;
+            margin-top: 0px; 
         }
     }
 
     .losmasvistos{
-        @include tamano(200px,200px)
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        margin-left: 1000px;
-        margin-top: -1000px;
-        color:$letras_color;
-    
-    }
-    .pagination{
-        
-        display: flex;
-        align-items: flex-end;
-        padding-top: 100px;
-
-    }
-    .pie{
-        
-        .pie__piedepagina{
-            
-            background-color: map-get( $redes, twitter);
-            list-style-type: none;
-            text-align: center;
-            color: white;
+        position: relative;
+        bottom: 2360px;
+        left: 1400px;
+        .losmasvistos__titulo{
+            font-size: 32px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white; 
+            left: 100px;  
         }
+        .uno{
+            position: relative;
+            top: 100px;
+            right: 400px;
+            right: 300px;
+        }
+        .dos{
+            position: relative;
+            top: 220px;
+            right: 300px;
+
+        }
+        .tres{
+            position: relative;
+            top: 300px;
+            right: 300px;
+        }
+        .primero{
+            color: $letras_color;
+            position: relative;
+            top: 50px;
+            font-size: 30px;
+            right: 300px;
+            
+        }
+       .segundo{
+            color: $letras_color;
+            position: relative;
+            top: 185px;
+            font-size: 30px;
+            right: 300px ;
+
+        }
+        .tercero{
+            color: $letras_color;
+            font-size: 30px;
+            position: relative;
+            top: 290px;
+            right: 300px;
+        }
+        }
+
+    
+        .pieredes {
+            background-color: #838383;
+              text-align: center;
+              margin: 10px 0;
+              padding: 10px 0;
+              position: relative;
+              bottom: 1800px;
+              
+          }
+          
+          #sociales-wrapper {
+              text-align: center;
+          }
+          
+          
+          .sociales-wrapper {
+              text-align: center;
+          }
+          
+          .sociales-wrapper ul li {
+              display: inline;
+              margin: 0 5px;
+          }
+          
+          .twitter-icon,
+          .facebook-icon,
+          .instagram-icon {
+            position: relative;
+            bottom: 30px;
+              margin-top: .625em;
+              width: 40px;
+              height: 40px;
+              opacity: .6;
+              filter: alpha(opacity=60); 
+            border-radius: 25px;
+          }
+          
+            .twitter-icon:hover,
+            .facebook-icon:hover,
+            .instagram-icon:hover{
+              opacity: 1.0;
+              filter: alpha(opacity=100); 
+          }
+          
+          .footer-nav p {
+              text-align: center;
+          }   
+   
+.barra{
+    font-size: 30px;
+    position: relative;
+    bottom: 180px;
+    
+    
+    color: $letras_color;
+    .boton{
+        text-decoration: none;
+        position: relative;
+        right: 30px;
+        color: $letras_color;
+
     }
 }
-
+/*fin index(Videos)/*
+/*Cuentos*/
+#cuentosback {
+    background: no-repeat center fixed;
+    background-color:black;
+    background-size: cover;
+    overflow-x: hidden ;
+    max-width: 5000px;
+    height: 2700px;
+    overflow-y: hidden;
+    .menucuentos {
+        border-right: transparent;
+        border-left: transparent;
+        border-top: transparent;
+        border-bottom: 1px solid green;
+        border-style: double;
+        border-width: 15px;
+        position: relative;
+        bottom: 1x;
+        
+     
+        .botonera{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            list-style: none;
+            display: flex;
+            background-image: url(../multimedia/fondoestrellas.jpg);
+            background-size: cover;
+            
+            .logocuentos{
+                width: 150px;
+                height: 150px;
+                margin-right: auto;
+                clip-path: circle();
+                animation-name: animacionlogo;
+                animation-duration: 1s;
+            }
+            .enlacuento{
+                font-size: 25px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: $letras_color;
+                text-decoration: none;
+                padding: 100px; 
+                top: 50px;
+                position: relative;
+            }
+            .enlacuento:hover {
+                color: yellow;
+            }
+        }
+    }
+    #titulocuentos{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        padding-left: 500px;
+    }
+    #cuento{
+        font-style: italic;
+        font-weight: bold;
+        text-align: left;
+        font-size: small;
+        
+    }
+}

@@ -1,80 +1,285 @@
-.twitter {
-  color: #55acee; }
-
-.facebook {
-  color: #3a5795; }
-
 @keyframes animacionlogo {
   0% {
     opacity: 0%; }
-  25% {
-    opacity: 25%; }
+  10% {
+    opacity: 10%; }
+  20% {
+    opacity: 20%; }
+  30% {
+    opacity: 30%; }
+  40% {
+    opacity: 40%; }
   50% {
     opacity: 50%; }
-  75% {
-    opacity: 75%; }
+  60% {
+    opacity: 60%; }
+  70% {
+    opacity: 70%; }
+  80% {
+    opacity: 80%; }
+  90% {
+    opacity: 90%; }
   100% {
     opacity: 100%; } }
 
-.logo, .fondo .logo {
-  width: 150px;
-  flex: 100px;
-  animation-name: animacionlogo;
-  animation-duration: 5s; }
+/*Index(Videos)*/
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative; }
 
 .fondo {
+  background: no-repeat center fixed;
   background-color: black;
-  background-image: url(../multimedia/fondo.webp);
-  background-size: cover; }
-  .fondo .menu .menu__listasecciones {
-    grid-template-columns: 1fr;
-    grid-template-areas: "header" "main" "footer"; }
-    .fondo .menu .menu__listasecciones li {
-      padding: 0px;
-      font-size: 20px;
-      display: inline;
-      margin-left: 100px;
-      padding: 20px; }
-  .fondo .titulo {
-    color: red;
-    margin-left: 270px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: solid 2px;
-    width: 130px;
-    background-color: green; }
-    .fondo .titulo .titulo__nombrevideo {
-      color: 255, 0, 0;
-      margin-left: 250px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-      .fondo .titulo .titulo__nombrevideo #descripcionDelvideo {
-        color: red; }
-  .fondo #videoDelpentagono {
-    color: red;
-    margin-left: 250px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-    .fondo #videoDelpentagono #pentagonoDescripcion {
-      color: red; }
-  .fondo #Lachicadelacarretera {
-    color: red;
-    margin-left: 250px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-    .fondo #Lachicadelacarretera #descripcionlachica {
-      color: red; }
-  .fondo .losmasvistos {
-    height: 200px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-left: 1000px;
-    margin-top: -1000px;
+  background-size: cover;
+  overflow-x: hidden;
+  max-width: 5000px;
+  height: 2700px;
+  overflow-y: hidden; }
+  .fondo .titulopagina {
+    position: relative;
+    top: 159px;
+    left: 30px;
     color: red; }
-  .fondo .pagination {
+  .fondo .menu {
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: 1px solid green;
+    border-style: double;
+    border-width: 15px;
+    position: relative;
+    bottom: 40px; }
+  .fondo .menu__listasecciones {
+    list-style: none;
     display: flex;
-    align-items: flex-end;
-    padding-top: 100px; }
-  .fondo .pie .pie__piedepagina {
-    background-color: #55acee;
-    list-style-type: none;
-    text-align: center;
-    color: white; }
+    background-image: url(../multimedia/fondoestrellas.jpg);
+    background-size: cover; }
+  .fondo .logo {
+    width: 150px;
+    height: 150px;
+    margin-right: auto;
+    clip-path: circle();
+    animation-name: animacionlogo;
+    animation-duration: 1s; }
+  .fondo .enlaces {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    text-decoration: none;
+    padding: 100px;
+    top: 50px;
+    position: relative; }
+
+.enlaces:hover {
+  color: yellow; }
+
+.secciondevideos .secciondevideos__titulo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  padding-left: 500px; }
+
+.secciondevideos .titulo__nombrevideo {
+  position: relative;
+  right: 70px;
+  bottom: 270px;
+  margin-top: 300px;
+  padding-left: 250px;
+  color: red; }
+
+.secciondevideos #descripcionDelvideo {
+  position: relative;
+  right: 100px;
+  bottom: 400px;
+  margin-top: 50px;
+  padding: 100px;
+  color: crimson; }
+
+.secciondevideos .iframevideo {
+  position: relative;
+  bottom: 450px;
+  padding-left: 25px;
+  margin-top: 0px; }
+
+.segundovideo #segundovideo__videoDelpentagono {
+  position: relative;
+  bottom: 430px;
+  left: 170px;
+  color: red; }
+
+.segundovideo #pentagonoDescripcion {
+  position: relative;
+  right: 1px;
+  bottom: 415px;
+  color: crimson; }
+
+.segundovideo .videopenta {
+  position: relative;
+  bottom: 350px;
+  padding-left: 25px;
+  margin-top: 0px; }
+
+.ultimovideo #Lachicadelacarretera {
+  position: relative;
+  bottom: 320px;
+  left: 190px;
+  color: red; }
+
+.ultimovideo #descripcionlachica {
+  position: relative;
+  position: relative;
+  bottom: 300px;
+  left: 1px;
+  color: crimson; }
+
+.ultimovideo .videochica {
+  position: relative;
+  bottom: 300px;
+  padding-left: 25px;
+  margin-top: 0px; }
+
+.losmasvistos {
+  position: relative;
+  bottom: 2360px;
+  left: 1400px; }
+  .losmasvistos .losmasvistos__titulo {
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    left: 100px; }
+  .losmasvistos .uno {
+    position: relative;
+    top: 100px;
+    right: 400px;
+    right: 300px; }
+  .losmasvistos .dos {
+    position: relative;
+    top: 220px;
+    right: 300px; }
+  .losmasvistos .tres {
+    position: relative;
+    top: 300px;
+    right: 300px; }
+  .losmasvistos .primero {
+    color: red;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    right: 300px; }
+  .losmasvistos .segundo {
+    color: red;
+    position: relative;
+    top: 185px;
+    font-size: 30px;
+    right: 300px; }
+  .losmasvistos .tercero {
+    color: red;
+    font-size: 30px;
+    position: relative;
+    top: 290px;
+    right: 300px; }
+
+.pieredes {
+  background-color: #838383;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px 0;
+  position: relative;
+  bottom: 1800px; }
+
+#sociales-wrapper {
+  text-align: center; }
+
+.sociales-wrapper {
+  text-align: center; }
+
+.sociales-wrapper ul li {
+  display: inline;
+  margin: 0 5px; }
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon {
+  position: relative;
+  bottom: 30px;
+  margin-top: .625em;
+  width: 40px;
+  height: 40px;
+  opacity: .6;
+  filter: alpha(opacity=60);
+  border-radius: 25px; }
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); }
+
+.footer-nav p {
+  text-align: center; }
+
+.barra {
+  font-size: 30px;
+  position: relative;
+  bottom: 180px;
+  color: red; }
+  .barra .boton {
+    text-decoration: none;
+    position: relative;
+    right: 30px;
+    color: red; }
+
+/*fin index(Videos)/*
+/*Cuentos*/
+#cuentosback {
+  background: no-repeat center fixed;
+  background-color: black;
+  background-size: cover;
+  overflow-x: hidden;
+  max-width: 5000px;
+  height: 2700px;
+  overflow-y: hidden; }
+  #cuentosback .menucuentos {
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: 1px solid green;
+    border-style: double;
+    border-width: 15px;
+    position: relative;
+    bottom: 1x; }
+    #cuentosback .menucuentos .botonera {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      list-style: none;
+      display: flex;
+      background-image: url(../multimedia/fondoestrellas.jpg);
+      background-size: cover; }
+      #cuentosback .menucuentos .botonera .logocuentos {
+        width: 150px;
+        height: 150px;
+        margin-right: auto;
+        clip-path: circle();
+        animation-name: animacionlogo;
+        animation-duration: 1s; }
+      #cuentosback .menucuentos .botonera .enlacuento {
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: red;
+        text-decoration: none;
+        padding: 100px;
+        top: 50px;
+        position: relative; }
+      #cuentosback .menucuentos .botonera .enlacuento:hover {
+        color: yellow; }
+  #cuentosback #titulocuentos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-left: 500px; }
+  #cuentosback #cuento {
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    font-size: small; }
