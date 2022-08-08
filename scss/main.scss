@@ -562,5 +562,125 @@ html,body {
     .enlavid:hover {
         color: yellow;
         }
+    
+    }
+    #titulodeimagenes{
+        color: white;
+    }
+    .descimagen {
+        color: $letras_color;
+    }
+    #descdos {
+        color: $letras_color;
+        position: relative;
+        left: 500px;
+        bottom: 350px;
+    }
+    #roswell {
+        position: relative;
+        left: 500px;
+        bottom: 350px;
+    }
+    .desctres {
+        color: $letras_color;
+        position: relative;
+        left: 1000px;
+        bottom: 700px;
+    }
+    .payaso {
+        position: relative;
+        left: 1000px;
+        bottom: 700px;
+    }
+    .desccuatro {
+        color: $letras_color;
+        position: relative;
+        bottom: 600px;
+    }
+    .mujercara {
+        position: relative;
+        bottom: 600px;
+    }
+    .desccinco {
+        color: $letras_color;
+        position: relative;
+        bottom: 955px;
+        left: 500px;
+    }
+    .demonio {
+        position: relative;
+        bottom: 954px;
+        left: 500px;
+    }
+    .descseis {
+        color: $letras_color;
+        position: relative;
+        bottom: 1310px;
+        left: 1000px;
+    }
+    .sotano {
+        position: relative;
+        bottom: 1300px;
+        left: 1000px;
+    }
+    .titulomasvistos {
+        color: white;
+        position: relative;
+        left: 1500px;
+        bottom: 2190px;
+        font-size: 30px;
+
+    }
+    .masvistosuno {
+        color: $letras_color;
+        position: relative;
+        left: 1490px;
+        bottom: 2200px;
+        
+
+    }
+    .top1 {
+        position: relative;
+        left: 1490px;
+        bottom: 2200px;
+    }
+    .masvistodos {
+        color: $letras_color;
+        position: relative;
+        left: 1490px;
+        bottom: 2200px;
+    }
+    .arana {
+        position: relative;
+        left: 1490px;
+        bottom: 2200px;
+    }
+    .masvistostres {
+        color: $letras_color;
+        position: relative;
+        left: 1490px;
+        bottom: 2200px;
+    }
+    .torre {
+        position: relative;
+        left: 1490px;
+        bottom: 2200px;
+    }
+    .siguientes {
+        font-size: 30px;
+        position: relative;
+        bottom: 2500px;
+        left: 500px;
+        display: inline-block;
+    
+        .pagsiguiente {
+        text-decoration: none;
+        position: relative;
+        right: 30px;
+        color: $letras_color;
+        line-height: 100px;
+        }
     }
 }
+/* fin imagenes /*
+/* nosotros /*

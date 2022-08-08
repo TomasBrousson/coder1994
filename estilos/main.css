@@ -480,3 +480,95 @@ html, body {
       position: relative; }
     .fondoimagenes .menuima .enlavid:hover {
       color: yellow; }
+  .fondoimagenes #titulodeimagenes {
+    color: white; }
+  .fondoimagenes .descimagen {
+    color: red; }
+  .fondoimagenes #descdos {
+    color: red;
+    position: relative;
+    left: 500px;
+    bottom: 350px; }
+  .fondoimagenes #roswell {
+    position: relative;
+    left: 500px;
+    bottom: 350px; }
+  .fondoimagenes .desctres {
+    color: red;
+    position: relative;
+    left: 1000px;
+    bottom: 700px; }
+  .fondoimagenes .payaso {
+    position: relative;
+    left: 1000px;
+    bottom: 700px; }
+  .fondoimagenes .desccuatro {
+    color: red;
+    position: relative;
+    bottom: 600px; }
+  .fondoimagenes .mujercara {
+    position: relative;
+    bottom: 600px; }
+  .fondoimagenes .desccinco {
+    color: red;
+    position: relative;
+    bottom: 955px;
+    left: 500px; }
+  .fondoimagenes .demonio {
+    position: relative;
+    bottom: 954px;
+    left: 500px; }
+  .fondoimagenes .descseis {
+    color: red;
+    position: relative;
+    bottom: 1310px;
+    left: 1000px; }
+  .fondoimagenes .sotano {
+    position: relative;
+    bottom: 1300px;
+    left: 1000px; }
+  .fondoimagenes .titulomasvistos {
+    color: white;
+    position: relative;
+    left: 1500px;
+    bottom: 2190px;
+    font-size: 30px; }
+  .fondoimagenes .masvistosuno {
+    color: red;
+    position: relative;
+    left: 1490px;
+    bottom: 2200px; }
+  .fondoimagenes .top1 {
+    position: relative;
+    left: 1490px;
+    bottom: 2200px; }
+  .fondoimagenes .masvistodos {
+    color: red;
+    position: relative;
+    left: 1490px;
+    bottom: 2200px; }
+  .fondoimagenes .arana {
+    position: relative;
+    left: 1490px;
+    bottom: 2200px; }
+  .fondoimagenes .masvistostres {
+    color: red;
+    position: relative;
+    left: 1490px;
+    bottom: 2200px; }
+  .fondoimagenes .torre {
+    position: relative;
+    left: 1490px;
+    bottom: 2200px; }
+  .fondoimagenes .siguientes {
+    font-size: 30px;
+    position: relative;
+    bottom: 2500px;
+    left: 500px;
+    display: inline-block; }
+    .fondoimagenes .siguientes .pagsiguiente {
+      text-decoration: none;
+      position: relative;
+      right: 30px;
+      color: red;
+      line-height: 100px; }
