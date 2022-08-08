@@ -572,3 +572,142 @@ html, body {
       right: 30px;
       color: red;
       line-height: 100px; }
+
+/* fin imagenes /*
+/* nosotros */
+#nosotrosback {
+  background-color: black; }
+  #nosotrosback .imanoso {
+    color: red;
+    position: relative;
+    top: 143px;
+    left: 30px; }
+  #nosotrosback .menunoso {
+    position: relative;
+    bottom: 70px;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: 1px solid green;
+    border-style: double;
+    border-width: 15px; }
+    #nosotrosback .menunoso #menudenoso {
+      list-style: none;
+      display: flex;
+      background-image: url(../multimedia/fondoestrellas.jpg);
+      background-size: cover; }
+    #nosotrosback .menunoso .enlanos {
+      font-size: 25px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: red;
+      text-decoration: none;
+      padding: 100px;
+      top: 50px;
+      position: relative; }
+    #nosotrosback .menunoso .enlanos:hover {
+      color: yellow; }
+    #nosotrosback .menunoso .logonosotros {
+      width: 150px;
+      height: 150px;
+      margin-right: auto;
+      clip-path: circle();
+      animation-name: animacionlogo;
+      animation-duration: 1s; }
+  #nosotrosback .nosotrostitulo {
+    color: red;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  #nosotrosback .nosotrostitulo__texto {
+    font-size: larger;
+    color: green;
+    text-align: center;
+    width: 400px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    position: relative;
+    left: 675px; }
+
+/*fin nosotros*/
+/*escribinos*/
+#fondoescribinos {
+  background-color: black; }
+  #fondoescribinos .logotexto {
+    color: red;
+    position: relative;
+    top: 143px;
+    left: 30px; }
+  #fondoescribinos .escribimenu {
+    position: relative;
+    bottom: 70px;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: 1px solid green;
+    border-style: double;
+    border-width: 15px; }
+    #fondoescribinos .escribimenu #menuescri {
+      list-style: none;
+      display: flex;
+      background-image: url(../multimedia/fondoestrellas.jpg);
+      background-size: cover; }
+    #fondoescribinos .escribimenu .logoescribinos {
+      width: 150px;
+      height: 150px;
+      margin-right: auto;
+      clip-path: circle();
+      animation-name: animacionlogo;
+      animation-duration: 1s; }
+    #fondoescribinos .escribimenu .enlaescri {
+      font-size: 25px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: red;
+      text-decoration: none;
+      padding: 100px;
+      top: 50px;
+      position: relative; }
+    #fondoescribinos .escribimenu .enlaescri:hover {
+      color: yellow; }
+  #fondoescribinos #tituloesc {
+    color: red; }
+  #fondoescribinos #envianos {
+    color: green;
+    font-size: large; }
+  #fondoescribinos .formulario {
+    position: relative;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #fondoescribinos .miformulario {
+    margin: 35px; }
+  #fondoescribinos .miinput {
+    position: relative;
+    top: 170px;
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none; }
+  #fondoescribinos .mensaje {
+    position: relative;
+    top: 190px;
+    height: 150px;
+    padding-top: 10px;
+    width: 410px; }
+  #fondoescribinos .boton {
+    position: relative;
+    top: 190px;
+    left: 365px;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: green;
+    font-size: 12px;
+    border: none;
+    cursor: pointer; }

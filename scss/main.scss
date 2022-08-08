@@ -683,4 +683,166 @@ html,body {
     }
 }
 /* fin imagenes /*
-/* nosotros /*
+/* nosotros */
+
+#nosotrosback {
+    background-color: black;
+    .imanoso {
+        color: $letras_color;
+        position: relative;
+        top: 143px;
+        left: 30px;
+    }
+    .menunoso {
+        position: relative;
+        bottom: 70px;
+        border-right: transparent;
+        border-left: transparent;
+        border-top: transparent;
+        border-bottom: 1px solid green;
+        border-style: double;
+        border-width: 15px;
+        #menudenoso {
+            list-style: none;
+            display: flex;
+            background-image: url(../multimedia/fondoestrellas.jpg);
+            background-size: cover;
+        }
+        .enlanos {
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: $letras_color;
+            text-decoration: none;
+            padding: 100px; 
+            top: 50px;
+            position: relative;
+        }
+        .enlanos:hover {
+            color: yellow;
+            }
+        .logonosotros {
+            width: 150px;
+            height: 150px;
+            margin-right: auto;
+            clip-path: circle();
+            animation-name: animacionlogo;
+            animation-duration: 1s;
+        }
+    }
+    .nosotrostitulo {
+        color: $letras_color;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .nosotrostitulo__texto {
+        font-size: larger;
+        color: green;
+        text-align: center;
+        width: 400px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+        position: relative;
+        left: 675px;
+    }    
+    }
+    /*fin nosotros*/
+    /*escribinos*/
+    #fondoescribinos {
+        background-color: black;
+        .logotexto{
+        color: $letras_color;
+        position: relative;
+        top: 143px;
+        left: 30px;   
+        }
+        .escribimenu {
+            position: relative;
+            bottom: 70px;
+            border-right: transparent;
+            border-left: transparent;
+            border-top: transparent;
+            border-bottom: 1px solid green;
+            border-style: double;
+            border-width: 15px;
+                #menuescri {
+                    list-style: none;
+                    display: flex;
+                    background-image: url(../multimedia/fondoestrellas.jpg);
+                    background-size: cover;
+                }
+                .logoescribinos {
+                    width: 150px;
+                    height: 150px;
+                    margin-right: auto;
+                    clip-path: circle();
+                    animation-name: animacionlogo;
+                    animation-duration: 1s;
+                }
+                .enlaescri {
+                    font-size: 25px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: $letras_color;
+                    text-decoration: none;
+                    padding: 100px; 
+                    top: 50px;
+                    position: relative;
+                }
+                .enlaescri:hover {
+                    color: yellow;
+                    }
+            }
+        #tituloesc {
+            color: $letras_color;
+            }
+        #envianos {
+            color: green;
+            font-size: large;
+        }
+        
+        .formulario {
+            position: relative;
+            top: 100px;
+            width: 500px;
+            height: 500px;
+            background-color:rgb(0, 0, 0);
+            left: 50%;
+            transform: translate(-50%,-50%);
+            
+         }   
+        .miformulario {
+            
+            margin: 35px;
+         }
+        .miinput {
+            position: relative;
+            top: 170px;
+            width: 400px;
+            height: 40px;
+            margin-top: 20px;
+            padding-right: 10px;
+            border:  1px solid #777;
+            border-radius: 14px;
+            outline: none;
+         }
+        .mensaje {
+            position: relative;
+            top: 190px;
+            height: 150px;
+            padding-top: 10px;
+            width: 410px;
+         }
+        .boton {
+            position: relative;
+            top: 190px;
+            left: 365px;
+            border-radius: 20px;
+            color: #fff;
+            margin-top:  18px;
+            padding: 10px;
+            background-color: green;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+    }
