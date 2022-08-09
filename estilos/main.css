@@ -372,40 +372,45 @@ html, body {
     bottom: 2300px;
     left: 100px;
     display: inline-block; }
-    #cuentosback .pagination .barra .pagnumero {
+    #cuentosback .pagination .pieredes .barra .pagnumero {
       text-decoration: none;
       position: relative;
+      bottom: -280px;
       right: 30px;
       line-height: 100px; }
-  #cuentosback .cuentoredes {
-    position: sticky;
-    background-color: #838383;
-    text-align: center;
-    margin: 10px 0;
-    padding: 10px 0; }
-  #cuentosback .cuentossociales {
-    text-align: center; }
-  #cuentosback .cuentossociales {
-    text-align: center; }
-  #cuentosback .cuentossociales ul li {
-    display: inline;
-    margin: 0 5px; }
-  #cuentosback .twitter-icon,
-  #cuentosback .facebook-icon,
-  #cuentosback .instagram-icon {
-    position: relative;
-    bottom: 30px;
-    margin-top: .625em;
-    width: 40px;
-    height: 40px;
-    opacity: .6;
-    filter: alpha(opacity=60);
-    border-radius: 25px; }
-  #cuentosback .twitter-icon:hover,
-  #cuentosback .facebook-icon:hover,
-  #cuentosback .instagram-icon:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100); }
+    #cuentosback .pagination .sociales-wrapper {
+      text-align: center;
+      position: relative;
+      top: 480px; }
+      #cuentosback .pagination .sociales-wrapper .cuentoredes {
+        position: sticky;
+        background-color: #838383;
+        text-align: center;
+        margin: 10px 0;
+        padding: 10px 0; }
+      #cuentosback .pagination .sociales-wrapper .cuentossociales {
+        text-align: center; }
+      #cuentosback .pagination .sociales-wrapper .cuentossociales {
+        text-align: center; }
+      #cuentosback .pagination .sociales-wrapper .cuentossociales ul li {
+        display: inline;
+        margin: 0 5px; }
+      #cuentosback .pagination .sociales-wrapper .twitter-icon,
+      #cuentosback .pagination .sociales-wrapper .facebook-icon,
+      #cuentosback .pagination .sociales-wrapper .instagram-icon {
+        position: relative;
+        bottom: 30px;
+        margin-top: .625em;
+        width: 40px;
+        height: 40px;
+        opacity: .6;
+        filter: alpha(opacity=60);
+        border-radius: 25px; }
+      #cuentosback .pagination .sociales-wrapper .twitter-icon:hover,
+      #cuentosback .pagination .sociales-wrapper .facebook-icon:hover,
+      #cuentosback .pagination .sociales-wrapper .instagram-icon:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100); }
 
 /*fincuentos*/
 /*Imagenes*/
