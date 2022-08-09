@@ -1,15 +1,12 @@
 @import "variables";
 
 
-
 /*Index(Videos)*/
 
 html,body {
     margin: 0;
     padding:0;
     overflow-x:hidden;
-    position: relative;
-    
 }
 
 .fondo{
@@ -32,6 +29,7 @@ html,body {
     
    
     .menu{
+        flex-wrap: wrap;
         position: relative;
         bottom: 41px;
         border-right: transparent;
@@ -43,7 +41,7 @@ html,body {
         
         }
         .menu__listasecciones{
-            
+            flex-wrap: wrap;
             list-style: none;
             display: flex;
             background-image: url(../multimedia/fondoestrellas.jpg);
@@ -51,6 +49,7 @@ html,body {
         
             }
             .logo{
+                
                 width: 150px;
                 height: 150px;
                 margin-right: auto;
@@ -59,6 +58,7 @@ html,body {
                 animation-duration: 1s;
                  }
             .enlaces{
+                flex-wrap: wrap;
                 font-size: 25px;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 color: $letras_color;
@@ -76,6 +76,7 @@ html,body {
 
     
 .secciondevideos{
+    
     .secciondevideos__titulo {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
@@ -207,18 +208,12 @@ html,body {
 
     
         .pieredes {
-            background-color: #838383;
-              text-align: center;
-              margin: 10px 0;
-              padding: 10px 0;
-              position: relative;
-              bottom: 1800px;
-              
-          }
+            text-align: center;
+            position: relative;
+            bottom: 1810px;
+            }
           
-          #sociales-wrapper {
-              text-align: center;
-          }
+          
           
           
           .sociales-wrapper {
@@ -261,7 +256,7 @@ html,body {
         text-decoration: none;
         position: relative;
         right: 30px;
-        color: $letras_color;
+        
 
     }
 }
@@ -467,14 +462,16 @@ html,body {
         left: 100px;
         display: inline-block;
         
-        
 
+
+        
+    .barra{    
         .pagnumero{
             text-decoration: none;
             position: relative;
-            right: 30px;
-            color: $letras_color;
+            right: 30px;    
             line-height: 100px;
+            }
         }
     }
     .cuentoredes {
@@ -516,8 +513,12 @@ html,body {
 }       
 /*fincuentos*/
 /*Imagenes*/
+
 .fondoimagenes{
+        
+        
         background-color: black;
+    
     .imagenesti{
         color: $letras_color;
         position: relative;
@@ -666,6 +667,7 @@ html,body {
         left: 1490px;
         bottom: 2200px;
     }
+}
     .siguientes {
         font-size: 30px;
         position: relative;
@@ -681,17 +683,28 @@ html,body {
         line-height: 100px;
         }
     }
-}
+    .pieredesimagenes{
+            text-align: center;
+            position: relative;
+            bottom: 2200px;
+    }
+
 /* fin imagenes /*
 /* nosotros */
 
-#nosotrosback {
+
+.nosotrosback {
     background-color: black;
+    overflow-y: hidden;
+    flex-wrap: wrap;
+    
+    
     .imanoso {
         color: $letras_color;
         position: relative;
         top: 143px;
         left: 30px;
+        flex-wrap: wrap;
     }
     .menunoso {
         position: relative;
@@ -702,11 +715,13 @@ html,body {
         border-bottom: 1px solid green;
         border-style: double;
         border-width: 15px;
+        flex-wrap: wrap;
         #menudenoso {
             list-style: none;
             display: flex;
             background-image: url(../multimedia/fondoestrellas.jpg);
             background-size: cover;
+            flex-wrap: wrap;
         }
         .enlanos {
             font-size: 25px;
@@ -716,6 +731,7 @@ html,body {
             padding: 100px; 
             top: 50px;
             position: relative;
+            flex-wrap: wrap;
         }
         .enlanos:hover {
             color: yellow;
@@ -727,14 +743,17 @@ html,body {
             clip-path: circle();
             animation-name: animacionlogo;
             animation-duration: 1s;
+            flex-wrap: wrap;
         }
     }
     .nosotrostitulo {
+        flex-wrap: wrap;
         color: $letras_color;
         text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .nosotrostitulo__texto {
+        
         font-size: larger;
         color: green;
         text-align: center;
@@ -744,12 +763,21 @@ html,body {
         margin: 20px;
         position: relative;
         left: 675px;
-    }    
+    } 
+    .nosotrosfoot {
+        flex-wrap: wrap;
+        position: relative;
+        top: 40px;
+        right: 15px;
+    }   
     }
+   
+    
     /*fin nosotros*/
     /*escribinos*/
     #fondoescribinos {
         background-color: black;
+        flex-wrap: wrap;
         .logotexto{
         color: $letras_color;
         position: relative;
@@ -766,6 +794,7 @@ html,body {
             border-style: double;
             border-width: 15px;
                 #menuescri {
+                    flex-wrap: wrap;
                     list-style: none;
                     display: flex;
                     background-image: url(../multimedia/fondoestrellas.jpg);
@@ -802,11 +831,12 @@ html,body {
         
         .formulario {
             position: relative;
+            
             top: 100px;
-            width: 500px;
+            width: 1px;
             height: 500px;
             background-color:rgb(0, 0, 0);
-            left: 50%;
+            
             transform: translate(-50%,-50%);
             
          }   
@@ -845,4 +875,16 @@ html,body {
             border: none;
             cursor: pointer;
         }
+        .piedeescribinos {
+            position: relative;
+            bottom: 30px;
+            right: 20px;
+
+        }
     }
+/*fin escribinos*/
+@media (max-width: 500px) {
+    .fondo{
+       background-color: blue;
+    }
+}
