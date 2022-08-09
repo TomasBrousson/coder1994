@@ -18,26 +18,15 @@ html,body {
     height: 2700px;
     overflow-y: hidden;
     
-    .titulopagina{
-        position: relative;
-        top: 157px;
-        left: 30px;
-        color: $letras_color;
-
-    }
+   
     
     
    
     .menu{
         flex-wrap: wrap;
         position: relative;
-        bottom: 41px;
-        border-right: transparent;
-        border-left: transparent;
-        border-top: transparent;
-        border-bottom: 1px solid green;
-        border-style: double;
-        border-width: 15px;
+        bottom: 1px;
+        
         
         }
         .menu__listasecciones{
@@ -272,18 +261,15 @@ html,body {
     overflow-y: hidden;
     
 .menucuentos {
-        border-right: transparent;
-        border-left: transparent;
-        border-top: 10px transparent;
-        border-bottom: 1px solid green;
-        border-style: double;
-        border-width: 15px; 
+        
+         
         padding-top: 10px;
         position: relative;
         bottom: 50px;
     .botonera{
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             list-style: none;
             list-style: none;
             display: flex;
@@ -301,6 +287,7 @@ html,body {
                 animation-duration: 1s;
             }
             .enlacuento{
+                flex-wrap: wrap;
                 font-size: 25px;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 color: $letras_color;
@@ -313,13 +300,8 @@ html,body {
                 color: yellow;
             }
         }
-        .titulologo{
-            color: $letras_color;
-            position: relative;
-            top: 19px;
-            bottom: 15px;
-            left: 10px;
-        }
+        
+        
     }
     #titulocuentos{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -334,9 +316,9 @@ html,body {
         position: relative;
         left: 50px;
     }
-    #cuento{
+    .cuento{
         width: 500px;
-        border: 10px solid green;
+        
         padding: 60px;
         margin: 50px;
         font-style: italic;
@@ -354,7 +336,7 @@ html,body {
     }
     .cuento2{
         width: 500px;
-        border: 10px solid green;
+        
         padding: 60px;
         margin: 50px;
         font-style: italic;
@@ -371,7 +353,7 @@ html,body {
     }
     .cuento3{
         width: 500px;
-        border: 10px solid green;
+        
         padding: 60px;
         margin: 50px;
         font-style: italic;
@@ -385,7 +367,7 @@ html,body {
         color: white;
         position: relative;
         left: 1400px;
-        bottom: 1797px;
+        bottom: 1690px;
         font-size: 32px;
         
         
@@ -395,12 +377,12 @@ html,body {
         font-size: larger;
         position: relative;
         left: 1250px;
-        bottom: 1800px;
+        bottom: 1700px;
         
     }
     .masleidosuno{
         width: 500px;
-        border: 10px solid green;
+        
         padding: 60px;
         margin: 50px;
         font-style: italic;
@@ -410,7 +392,7 @@ html,body {
         color: green;
         position: relative;
         left: 1200px;
-        bottom: 1800px;
+        bottom: 1750px;
     }
     .anillostitulo{
         color: $letras_color;
@@ -422,7 +404,7 @@ html,body {
     }
     .masleidosdos{
         width: 500px;
-        border: 10px solid green;
+        
         padding: 60px;
         margin: 50px;
         font-style: italic;
@@ -443,7 +425,7 @@ html,body {
     }
     .masleidostres{
         width: 500px;
-        border: 10px solid green;
+       
         padding: 60px;
         margin: 50px;
         font-style: italic;
@@ -518,22 +500,15 @@ html,body {
         
         
         background-color: black;
+        height: max-content;
+        max-height: 2000px;
+        overflow-y: hidden;
     
-    .imagenesti{
-        color: $letras_color;
-        position: relative;
-        top: 145px;
-        left: 30px;
-    }
+
     .menuima{
         position: relative;
-        bottom: 70px;
-        border-right: transparent;
-        border-left: transparent;
-        border-top: transparent;
-        border-bottom: 1px solid green;
-        border-style: double;
-        border-width: 15px;
+        bottom: 16px;
+        
         #menudeimagenes{
             
             list-style: none;
@@ -686,7 +661,7 @@ html,body {
     .pieredesimagenes{
             text-align: center;
             position: relative;
-            bottom: 2200px;
+            bottom: 2000px;
     }
 
 /* fin imagenes /*
@@ -699,22 +674,11 @@ html,body {
     flex-wrap: wrap;
     
     
-    .imanoso {
-        color: $letras_color;
-        position: relative;
-        top: 143px;
-        left: 30px;
-        flex-wrap: wrap;
-    }
+    
     .menunoso {
         position: relative;
-        bottom: 70px;
-        border-right: transparent;
-        border-left: transparent;
-        border-top: transparent;
-        border-bottom: 1px solid green;
-        border-style: double;
-        border-width: 15px;
+        bottom: 16px;
+        
         flex-wrap: wrap;
         #menudenoso {
             list-style: none;
@@ -778,21 +742,11 @@ html,body {
     #fondoescribinos {
         background-color: black;
         flex-wrap: wrap;
-        .logotexto{
-        color: $letras_color;
-        position: relative;
-        top: 143px;
-        left: 30px;   
-        }
+        
         .escribimenu {
             position: relative;
-            bottom: 70px;
-            border-right: transparent;
-            border-left: transparent;
-            border-top: transparent;
-            border-bottom: 1px solid green;
-            border-style: double;
-            border-width: 15px;
+            bottom: 16px;
+            
                 #menuescri {
                     flex-wrap: wrap;
                     list-style: none;
@@ -884,7 +838,52 @@ html,body {
     }
 /*fin escribinos*/
 @media (max-width: 500px) {
-    .fondo{
-       background-color: blue;
+    /*index*/
+    .logo{
+        display: none;
     }
-}
+    
+    .menu__listasecciones {
+        padding-bottom: 100px;
+        padding-right: 500px;
+        position: relative;
+        right: 30px;
+    }
+    
+    .secciondevideos__titulo {
+        display: none;
+    }
+    .titulo__nombrevideo{
+        display: none;
+    }
+    #descripcionDelvideo {
+        display: none;
+    }
+
+/*fin index*/
+/*cuentos*/
+    .logocuentos {
+        display: none;
+    }
+    .botonera {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-right: 500px;
+        position: relative;
+        right: 30px;
+        
+    }
+    #titulocuentos {
+        display: none;
+    }
+
+    .menucuentos a {
+        flex-direction: column;
+        text-align: start;
+    }
+    .cuento {
+        padding: 0px;
+        margin: 0px;
+    }
+
+}    
