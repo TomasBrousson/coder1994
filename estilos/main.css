@@ -227,12 +227,12 @@ html, body {
   background-size: cover;
   overflow-x: hidden;
   max-width: 5000px;
-  height: 2700px;
+  height: 1936px;
   overflow-y: hidden; }
   #cuentosback .menucuentos {
     padding-top: 10px;
     position: relative;
-    bottom: 50px; }
+    bottom: 66px; }
     #cuentosback .menucuentos .botonera {
       display: flex;
       flex-direction: row;
