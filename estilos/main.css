@@ -173,10 +173,15 @@ html, body {
     top: 290px;
     right: 300px; }
 
+.pieredesindex {
+  text-align: center;
+  position: relative;
+  bottom: 1731px; }
+
 .pieredes {
   text-align: center;
   position: relative;
-  bottom: 1161px; }
+  bottom: 1810px; }
 
 .sociales-wrapper {
   text-align: center; }
