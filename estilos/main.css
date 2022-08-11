@@ -372,12 +372,16 @@ html, body {
     bottom: 2300px;
     left: 100px;
     display: inline-block; }
-    #cuentosback .pagination .pieredes .barra .pagnumero {
-      text-decoration: none;
+    #cuentosback .pagination .pieredes {
+      text-align: center;
       position: relative;
-      bottom: -280px;
-      right: 30px;
-      line-height: 100px; }
+      bottom: 1300px; }
+      #cuentosback .pagination .pieredes .barra .pagnumero {
+        text-decoration: none;
+        position: relative;
+        bottom: -280px;
+        right: 30px;
+        line-height: 100px; }
     #cuentosback .pagination .sociales-wrapper {
       text-align: center;
       position: relative;
